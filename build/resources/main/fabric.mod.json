@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "a0mod",
+	"version": "1.0.0",
+	"name": "A0mod",
+	"description": "Adds nonsense",
+	"authors": [
+		"A0"
+	],
+	"contact": {
+		"homepage": "https://www.chameleonherman.net"
+	},
+	"license": "MIT",
+	"icon": "assets/a0mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.a0.a0mod.A0mod"
+		],
+		"fabric-datagen": [
+			"net.a0.a0mod.A0modDataGenerator"
+		],
+		"client": [
+			"net.a0.a0mod.A0modClient"
+		]
+	},
+	"mixins": [
+		"a0mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
