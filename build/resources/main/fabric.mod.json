@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "a0mod",
-	"version": "${version}",
+	"version": "1.0.0",
 	"name": "A0mod",
 	"description": "Adds nonsense",
 	"authors": [
